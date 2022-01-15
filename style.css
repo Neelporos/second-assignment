@@ -47,7 +47,6 @@ body{width: 100%;
 }
 .banner-left{
     width: 580px;
-    height: 270px;
     margin-top: 225px;
     margin-left: 40px;
 }
@@ -76,3 +75,65 @@ body{width: 100%;
 }
 
 /* Banner style end */
+
+/* Collection section start */
+.section-tital{
+    display: flex;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    padding: 40px 20px;
+    margin-left: 40px;
+}
+.product{
+    width: 300px;
+    height: 476px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.product-title{
+    font-size: 28px;
+    margin-top:15px;
+}
+.product-banner img{
+    width: 300px;
+    height: 256px;
+}
+.product-banner h3{
+    font-size: 24px;
+}
+.fa-star.filled{
+    color: #FB8200;
+}
+.fa-star{
+    font-size: 16px;
+}
+.rating{
+    display: flex;
+    align-items: center;  
+}
+.rating p{
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.product-info{
+    font-size: 14px;
+    margin-top: 8px;
+}
+.second-button{
+    color: #E02C6D;
+ 
+}
+
+/* Collection section end */
