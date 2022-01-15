@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header style start */
+.header{
+    align-items: center;
+}
+.header-section{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-right: 30px;
+
+}
+.menu-iteam{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.manu-name{
+    margin-right: 34px;
+    font-size: 16px;
+    font-weight: 600;
+}
+/* header style end  */
