@@ -72,6 +72,7 @@ body{width: 100%;
     background-image: url(images/Circle\ design.svg);
     margin-right: 40px;
     margin-top: 80px;
+    background-repeat: no-repeat;
 }
 
 /* Banner style end */
@@ -170,3 +171,49 @@ body{width: 100%;
     padding: 2px;
 }
 /* Footer section end */
+
+/* media quaries mobile divices */
+
+@media only screen and (max-width:480px) {
+    .header-section{
+        display: inline-block;
+    }
+    .menu{
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 120px;
+    }
+    .manu-name{
+        margin-right: 10px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .Banner{
+        width: 100%;
+        display: list-item;
+    }
+    
+    .banner-left{
+        width: 100%;
+        margin-top: 125px;
+        margin-left: 5px;
+        margin-right: 10px;
+        text-align: center;
+    }
+    .banner-right{
+        background-image: url(images/Circle\ design.svg);
+        width: 100%;
+        margin-top: 80px;
+        background-repeat: no-repeat;
+        margin-left: 5px;
+    }
+    .products{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        padding: 40px 20px;
+        margin-left: 50px;
+    }
+
+}
